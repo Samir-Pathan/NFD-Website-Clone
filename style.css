@@ -379,7 +379,7 @@ background: linear-gradient(to right, #AD95DE 43%, #653F9E 100%);
 }
 
 .section3{
-    height: 1000px;
+    height: 900px;
     width: 100%;
     background-color: white;
     display: flex;
@@ -411,7 +411,6 @@ background: linear-gradient(to right, #AD95DE 43%, #653F9E 100%);
     margin-left: 37px;
     margin-top: 10px;
     font-stretch: expanded;
-
     
 }
 
@@ -478,4 +477,169 @@ video{
     width: 900px;
   
    
+}
+
+.section4{
+    height: 2500px;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(133deg, rgba(7, 0, 26, 1) 29%, rgba(22, 5, 80, 1) 41%, rgba(9, 1, 36, 1) 56%);
+}
+
+.section4-headings{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 7%;
+   
+}
+
+.section4-heading1{
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-size: 22px;
+}
+
+.section4-heading1 h1{
+    margin: 0px;
+}
+
+
+.section4-heading2{
+    font-size: 22px;
+    font-family: 'Syne', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: rgb(209, 160, 255);
+}
+
+.section4-heading3{
+    color: rgb(111, 115, 121);
+    font-family: formular;
+    position: absolute;
+    top: 12%;
+    left: 30%;
+
+}
+
+.section4-heading3 p1{
+    color: rgb(111, 115, 121);
+    font-family: formular;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    
+}
+.section4-heading3 p2{
+    color:  white;
+    font-weight: 500;
+    font-family: formular;
+    position: absolute;
+    left: 0%;
+    margin: 0px;
+    top: 110px;
+    
+}
+
+.section4-heading3 p3{
+    color:  white;
+    font-weight: 500;
+    font-family: formular;
+    position: absolute;
+    left: 40%;
+    margin: 0px;
+    top: 135px;
+}
+
+.section4-img1{
+     width:1000px;
+     height: 600px;
+
+
+}
+
+.img1{
+    background-image: url("section\ 4\ img1.jpeg");
+    background-size: cover;
+    height: 500px;
+    width: 900px;
+    scale: 70%;
+    position: absolute;
+    border-radius: 20px;
+    top: 16%;
+    left: 18%;
+}
+.section4-img2{
+height:  500px;
+width: 600px;
+position: absolute;
+top: 40%;
+left: 8%;
+border-radius: 20px;
+overflow-y: scroll;
+}
+
+.section4-img2 .img-2{
+   height: 100%;
+   width: 100%;
+  
+   object-fit: cover;
+}
+
+.section4-img2::-webkit-scrollbar{
+    display: none;
+}
+
+.section4-horizontal-img{
+    height: 60px;
+    width: 820px;
+    position: absolute;
+    top: 37.5%;
+    left: 0%;
+    align-items: start;
+    
+}
+
+.horizontal-img{
+    background-image: url("horizontal\ img.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 820px;
+    scale: 70%;
+    border-radius: 10px;
+    left: 4%;
+   
+    
+}
+
+.section4-vertical-img{
+    height: 800px;
+    width: 60px;
+}
+
+.vertical-img{
+    background-image: url("vertical\ img.jpeg");
+    background-size: cover;
+    height: 725px;
+    width: 60px;
+    scale: 70%;
+    position: absolute;
+    border-radius: 10px;
+    top: 35.5%;
+    left: 2%
+}
+
+.track{
+    color: white;
+    position: absolute;
+    left: 70%;
+    top: 40%;
+    scale:  110% ;
+
+}
+.track h1{
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
 }
