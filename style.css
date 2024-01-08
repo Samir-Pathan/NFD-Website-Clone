@@ -377,3 +377,105 @@ background: linear-gradient(to right, #AD95DE 43%, #653F9E 100%);
 .rightcorner-option2 p{
     font-size: 22px;
 }
+
+.section3{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+   
+}
+
+.section3-content{
+    height: 1200px;
+    width: 35%;
+    position: relative;
+   
+}
+
+.info-crypto{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    overflow-y: scroll;
+   
+}
+.info-crypto::-webkit-scrollbar{
+    display: none;
+}
+.info-crypto h1{
+    margin: 0px;
+    scale: 120%;
+    margin-left: 37px;
+    margin-top: 10px;
+    font-stretch: expanded;
+
+    
+}
+
+.info-crypto h4{
+    font-size: 25px;
+}
+
+.info-crypto p{
+    color: rgb(111, 115, 121);
+    font-family: Formular;
+    margin: 0px;
+   
+}
+
+.bottom-note{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 55%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 14px;
+    font-style: normal;
+    -webkit-box-shadow: 3px 12px 20px 4px rgba(0,0,0,0.15);
+    -moz-box-shadow: 3px 12px 20px 4px rgba(0,0,0,0.15);
+    box-shadow: 3px 12px 20px 4px rgba(0,0,0,0.15);
+}
+
+.note-img{
+    background-image: url("NFD.PNG");
+    background-size: cover;   
+    height: 40px;
+    width: 50px;
+    margin-left: 5px;
+    background-color:#ced2d6;
+}
+
+.section3-animation{
+    height: 1000px;
+    width: 60%;
+    position: relative;
+
+}
+
+.animation-bg{
+    height: 600px;
+    width: 900px;
+    background-image: url("https://www.nfd.gg/_next/image?url=%2Fblock1OPT.webp&w=750&q=75");
+    background-size: cover;
+    position: absolute;
+    top: 8%;
+  
+    left: 0%;
+    scale: 70%;
+   
+}
+
+video{
+    position: absolute;
+    scale: 140%;
+    height: 700px;
+    width: 900px;
+  
+   
+}
